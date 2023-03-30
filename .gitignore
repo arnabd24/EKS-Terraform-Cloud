@@ -1,0 +1,15 @@
+# ignore ALL .log files
+
+*.log
+
+#ignore csv and ppt
+
+*.csv
+*.ppt
+*.pptx
+
+#ignore tfstate files
+
+*.tfstate
+.terraform
+.terraform.lock.hcl

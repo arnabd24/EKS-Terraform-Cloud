@@ -1,0 +1,15 @@
+inputs:-
+
+to get the list of az , refer to the data source availability zone and use for each argument
+to get ami id you can refer to data with filters
+
+
+
+
+outputs:-
+
+to get the output public ip and map it to instance names then you can use a loop with map
+when you are using for each operators , in output you cannot use splat operator , instead of that please use loops with map
+
+tomap.toset.tolist will help you to format the data
+
